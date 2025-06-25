@@ -1,5 +1,5 @@
 body {
-    height: 1800px;
+    background-color:aliceblue;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -32,8 +32,3 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     width: 55%;
  }
-
-
-
-
- 

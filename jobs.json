@@ -1,0 +1,136 @@
+ [
+ {
+    "id": 1,
+    "title": "Frontend Developer",
+    "type": "Full Time",
+    "description": "Build and maintain user-facing features.",
+    "location": "Nairobi, Kenya",
+    "salary": "Ksh 120k–180k"
+  },
+  {
+    "id": 2,
+    "title": "Backend Developer",
+    "type": "Remote",
+    "description": "Work on our core API services and infrastructure.",
+    "location": "Remote",
+    "salary": "Ksh 150k–200k"
+  },
+  {
+    "id": 3,
+    "title": "Frontend Developer",
+    "type": "Remote",
+    "description": "Build and maintain user-facing features.",
+    "location": "Mombasa, Kenya",
+    "salary": "Ksh 103k–120k"
+  },
+  {
+    "id": 4,
+    "title": "Backend Developer",
+    "type": "Hybrid",
+    "description": "Work on our core API services and infrastructure from anywhere.",
+    "location": "Kisumu, Kenya",
+    "salary": "Ksh 135k–150k"
+  },
+
+  {
+    "id": 5,
+    "title": "Frontend Developer",
+    "type": "Hybrid",
+    "description": "Build and maintain user-facing features.",
+    "location": "Kiambu, Kenya",
+    "salary": "Ksh 90k–110k"
+  },
+  {
+    "id": 6,
+    "title": "Backend Developer",
+    "type": "Remote",
+    "description": "Work on our core API services and infrastructure.",
+    "location": "London, UK",
+    "salary": "Ksh 180k–215k"
+  },
+
+  {
+    "id": 7,
+    "title": "Frontend Developer",
+    "type": "Full Time",
+    "description": "Build and maintain user-facing features.",
+    "location": "Kiambu, Kenya",
+    "salary": "Ksh 120k–180k"
+  },
+  {
+    "id": 8,
+    "title": "Backend Developer",
+    "type": "Remote",
+    "description": "Work on our core API services and infrastructure.",
+    "location": "Illinois, USA",
+    "salary": "Ksh 235k"
+  },
+
+  {
+    "id": 9,
+    "title": "Frontend Developer",
+    "type": "Full Time",
+    "description": "Build and maintain user-facing features.",
+    "location": "Nairobi, Kenya",
+    "salary": "Ksh 95k"
+  },
+  {
+    "id": 10,
+    "title": "Backend Developer",
+    "type": "Hybrid",
+    "description": "Work on our core API services and infrastructure.",
+    "location": "Kigali, Rwanda",
+    "salary": "Ksh 260k"
+  },
+
+  {
+    "id": 11,
+    "title": "Frontend Developer",
+    "type": "Full Time",
+    "description": "Build and maintain user-facing features.",
+    "location": "Nairobi, Kenya",
+    "salary": "Ksh 126k"
+  },
+  {
+    "id": 12,
+    "title": "Backend Developer",
+    "type": "Full Time",
+    "description": "Work on our core API services and infrastructure.",
+    "location": "Mombasa, Kenya",
+    "salary": "Ksh 170k–200k"
+  },
+
+  {
+    "id": 13,
+    "title": "Frontend Developer",
+    "type": "Remote",
+    "description": "Build and maintain user-facing features.",
+    "location": "Remote",
+    "salary": "Ksh 111k"
+  },
+  {
+    "id": 14,
+    "title": "Backend Developer",
+    "type": "Remote",
+    "description": "Work on our core API services and infrastructure.",
+    "location": "Remote",
+    "salary": "Ksh 300k"
+  },
+
+  {
+    "id": 15,
+    "title": "Frontend Developer",
+    "type": "Full Time",
+    "description": "Build and maintain user-facing features.",
+    "location": "Kisumu, Kenya",
+    "salary" : "Ksh 185k"
+  },
+  {
+    "id": 16,
+    "title": "Backend Developer",
+    "type": "Remote",
+    "description": "Work on our core API services and infrastructure.",
+    "location": "Remote",
+    "salary": "Ksh 270k"
+  }
+]
