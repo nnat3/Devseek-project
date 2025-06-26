@@ -31,7 +31,7 @@ function renderJobs(jobs) {
          jobList.appendChild(jobCard)
         });
 
-         setupApplyButtons();
+         setApplyButton();
       }
 
 /* Filter jobs by location & job title */
