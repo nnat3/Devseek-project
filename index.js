@@ -30,6 +30,8 @@ function renderJobs(jobs) {
 
          jobList.appendChild(jobCard)
         });
+
+         setupApplyButtons();
       }
 
 /* Filter jobs by location & job title */
@@ -57,5 +59,37 @@ document.addEventListener("DOMContentLoaded", () => {
       setupFilter();
 })
 
+function setApplyButton() {
+      const applyButtons = document.querySelectorAll(".apply-btn")
+      const applyPopUp = document.getElementById("apply-popup")
+      const form = document.getElementById("apply-form");
+      const nameInput = document.getElementById("applicant-name");
+      const emailInput = document.getElementById("applicant-email");
+      const closePopupBtn = document.getElementById("close-popup");
+
+  applyButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      applyPopUp.classList.remove("hidden");
+      form.setAttribute("data-job-title", btn.dataset.title);
+    });
+  });
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const jobTitle = form.getAttribute("data-job-title");
+    const name = nameInput.value.trim();
+    const email = emailInput.value.trim();
+
+    if (name && email) {
+      alert(`Application submitted for "${jobTitle}" by ${name} (${email})`);
+      form.reset();
+      applyPopUp.classList.add("hidden");
+    }
+  });
+
+  closePopupBtn.addEventListener("click", () => {
+    applyPopUp.classList.add("hidden");
+  });
+}
 
 
