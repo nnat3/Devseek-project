@@ -1,3 +1,15 @@
+/* Declare jobs globally for easy manipulation */
+let allJobs = []
+
+function loadJobs() {
+      fetch("jobs.json")
+      .then((res) => res.json())
+      .then((jobs) =>{
+            allJobs = jobs;
+            renderJobs(jobs)
+      })
+}
+
 /* Fetch job data from json file */
 document.addEventListener ("DOMContentLoaded", () => {
       fetch("jobs.json")
@@ -19,3 +31,7 @@ document.addEventListener ("DOMContentLoaded", () => {
         });
 }))
 });
+
+
+
+
