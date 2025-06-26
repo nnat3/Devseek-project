@@ -25,7 +25,8 @@ function renderJobs(jobs) {
          <div class="job-info">
          <span>${job.location}</span>
          <span>${job.salary}</span>
-         </div>`;
+         </div>
+         <button class="apply-btn" data-title="${job.title}">Apply</button>`;
 
          jobList.appendChild(jobCard)
         });
