@@ -10,6 +10,8 @@ function loadJobs() {
       })
 }
 
+
+
 /* Fetch job data from json file */
 document.addEventListener ("DOMContentLoaded", () => {
       fetch("jobs.json")
@@ -32,6 +34,26 @@ document.addEventListener ("DOMContentLoaded", () => {
 }))
 });
 
+/* Filter jobs by location & job title */
+function setupFilter() {
+      const inputTitle = document.getElementById("filter-title")
+      const selectLocation = document.getElementById("filter-location")
+
+      inputTitle.addEventListener("input", applyFilters)
+      selectLocation.addEventListener("change", applyFilters)
+}
+
+function applyFilters() {
+      const title = document.getElementById("filter-title").toLowerCase().value
+      const location = document.getElementById("filter-location").value
+      const filteredResult = allJobs.filter((jobs) => {
+        const titleMatches = job.title.includes(title)
+        const locationMatches = location === "all" || job.location === location;
+        return titleMatches && locationMatches
+      })
+      renderJobs(filteredResult)
+}
+ 
 
 
 
