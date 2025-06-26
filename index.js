@@ -10,7 +10,11 @@ function loadJobs() {
       })
 }
 
-
+/* Job cards display function */
+function renderJobs() {
+      const jobList = document.querySelector(".job-list");
+      jobList.innerHTML = ""
+}
 
 /* Fetch job data from json file */
 document.addEventListener ("DOMContentLoaded", () => {
