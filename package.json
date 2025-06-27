@@ -1,7 +1,10 @@
 {
-  "name": "json-server"
+  "name": "devseek-api",
+  "version": "1.0.0",
+  "description": "Mock API for Devseek project using JSON Server",
+  "main": "index.js",
   "scripts": {
-    "start": "json-server --watch jobs.json"
+    "start": "json-server --watch jobs.json --port 10000"
   },
   "dependencies": {
     "json-server":"^0.17.4"
