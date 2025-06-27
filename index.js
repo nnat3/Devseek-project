@@ -5,10 +5,10 @@ let allJobs = []
 function loadJobs() {
       fetch("jobs.json")
       .then((res) => res.json())
-      .then((jobs) =>{
+      .then((data) =>{
             /*console.log("Loaded jobs:", jobs); */
-            allJobs = jobs;
-            renderJobs(jobs)
+            allJobs = data.jobs;
+            renderJobs(allJobs)
       })
 }
 
