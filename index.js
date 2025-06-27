@@ -1,17 +1,6 @@
 /* Declare jobs globally for easy manipulation */
 let allJobs = []
 
-/* Fetch job data from json file */
-function loadJobs() {
-      fetch("jobs.json")
-      .then((res) => res.json())
-      .then((data) =>{
-            /*console.log("Loaded jobs:", jobs); */
-            allJobs = data.jobs;
-            renderJobs(allJobs)
-      })
-}
-
 /* Job cards display function */
 function renderJobs(jobs) {
       const jobList = document.querySelector(".jobs-list");
@@ -33,6 +22,17 @@ function renderJobs(jobs) {
 
          setApplyButton();
       }
+
+/* Fetch job data from json file */
+function loadJobs() {
+      fetch("jobs.json")
+      .then((res) => res.json())
+      .then((data) =>{
+            /*console.log("Loaded jobs:", jobs); */
+            allJobs = data.jobs;
+            renderJobs(allJobs)
+      })
+}
 
 /* Filter jobs by location & job title */
 function setupFilter() {
