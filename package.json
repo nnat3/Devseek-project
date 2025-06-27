@@ -4,7 +4,7 @@
   "description": "Mock API for Devseek project using JSON Server",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch jobs.json --port 10000"
+    "start": "json-server --watch jobs.json --"
   },
   "dependencies": {
     "json-server":"^0.17.4"
